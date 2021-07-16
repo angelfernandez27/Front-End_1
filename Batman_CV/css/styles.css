@@ -1,0 +1,35 @@
+.Logo{
+    background-color: #E5E5E5;
+    text-align: center;
+}
+.div{
+    margin: 0 auto;
+    width: 70%;
+}
+.Titulo{
+    background-color:#C4C4C4;
+    letter-spacing: 10px;
+    color: #005677;
+}
+
+h3{
+    background: #C4C4C4;
+    letter-spacing: 5px;
+    color: #005677;
+}
+span{
+    Font-weight: bold;   
+}
+.span{
+    Font-style: italic;
+}
+
+.Footer{
+
+    background-color: #005677;
+    color:white;
+    text-align:center;
+}
+.sangre{
+    text-indent: 35px;
+}
