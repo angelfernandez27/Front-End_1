@@ -1,0 +1,54 @@
+
+
+.foto-cv{
+    color: aqua;
+    background-color: #E5E5E5;
+    background-image: url("../img/Foto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+   
+}
+
+.titulo{
+    text-transform: uppercase;
+    font-family: 'Monoton', cursive;
+    letter-spacing: 10px;
+    text-align: center;
+    background-color:#C4C4C4;
+    
+    color: #005677;
+}
+.div{
+    margin: 0 auto;
+    width: 70%;
+}
+dl,ul{
+    text-indent: 45px;
+   
+}
+
+h2{
+    font-family: 'Holtwood One SC', serif;
+    background-color: #C4C4C4;
+    letter-spacing: 5px;
+    color: #005677;
+    text-align: center;
+}
+span{
+    Font-weight: bold;   
+}
+.span{
+    Font-style: italic;
+}
+.sangria{
+    text-indent: 35px;
+}
+
+.Footer{
+
+    background-color: #005677;
+    color:white;
+    text-align:center;
+}
