@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+}
+
+.contentenedor-header{
+    /*display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap:wrap;*/
+    background-color: #000;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 12px solid #000;
+    
+}
+
+.contenedor-top{
+    
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    text-align:center;
+    gap: 40px;
+}
+h1{
+    color:aliceblue;
+    margin-top: 20px;
+}
+.span-pizza{
+    color: rgb(12, 148, 12);
+}
+.span-front{
+    color: rgb(202, 11, 11);
+}
+.contenedor-top img{
+    background-color: #000;
+    order:-1;
+
+}
+
+.contenedor-bottom ul{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    gap: 12px;
+}
+ul{
+    list-style: none;
+    
+}
+ul li{
+    display: inline;
+    padding-right: 15px;
+}
+nav>ul>li>a{
+    color: #F3F3F3;
+}
+/*------------------- Aquí empieza el main------------------------------- */
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    
+}
+.hijo-1{
+    background-image: url(img/delivery.jpg);
+    background-repeat: no-repeat;
+    width: 490px;
+    height: 350px;
+}
+.hijo-1>h2{
+    text-align: center;
+}
+.hijo-1>h2>p{
+    color: red;
+}
+.span-comprando{
+    color: seashell;
+
+}
+.hijo-2{
+    
+    width: 491px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    border: 0.2px black;
+}
+.hijo-2>h2{
+    align-self: flex-start;
+    color: red;
+}
+
+.hijo-2_nieto1>h2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.hijo-2_nieto1>ol>li{
+    padding-top: 10px;
+}
+
+.hijo-2_nieto1{
+    order: -1;
+}
+.img-arbolito{
+    background-image: url(img/PizzaFalling.jpg);
+    width: 20%;
+    height: 20%;
+    
+    
+}
+
+/*--------AQUÍ EMPIEZA EL FOOTER------*/
+
+footer{
+    
+    margin-top: 40px;
+}
+
+.contentenedor-footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+.contenedor-left>ul{
+    display: flex;
+    flex-direction: column;
+    margin-left:20px;
+    
+}
+
+
+.contenedor-left>ul>li{
+    margin-top: 12px;
+    
+}
+.contenedor-left>ul>li>a{
+    color: blanchedalmond;
+    
+}
+
+.contenedor-right{
+    display: flex;
+    margin: 10px;
+}
+
